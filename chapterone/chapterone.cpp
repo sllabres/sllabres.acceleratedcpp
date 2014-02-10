@@ -4,15 +4,67 @@
 
 int zero(int argc, _TCHAR* argv[])
 {
-	const std::string hello = "Hello";
-	const std::string message = hello + ", Hello" + "!";
+	std::cout << "Plase enter your first name: ";
+	std::string name;
+	std::cin >> name;
+
+	const std::string greeting = "Hello, " + name + "!";
+	const std::string spaces(greeting.size(), ' ');
+	const std::string second = "* " + spaces + " *";
+
+	const std::string first(second.size(), '*');
+
+	std::cout << std::endl;
+	std::cout << first << std::endl;
+	std::cout << second << std::endl;
+	std::cout << "* " << greeting << " * " << std::endl;
+	std::cout << second << std::endl;
+	std::cout << first << std::endl;
+
 	return 0;
 }
 
 int one(int argc, _TCHAR* argv[])
 {
+	const std::string hello = "Hello";
+	const std::string message = hello + ", Hello" + "!";
+	return 0;	
+}
+
+int two(int argc, _TCHAR* argv[])
+{
 	const std::string exclam = "Hello";
-	const std::string message = exclam + "Hello" + ", world";
+	//const std::string message = "Hello" + ", world" + exclam; //  operator is left-associative "Hello" and ", world" are concatenated first
+	return 0;
+}
+
+int three(int argc, _TCHAR* argv[])
+{
+	std::cout << "Excercise Three" << std::endl;
+
+	{ const std::string s = "a string";
+	std::cout << s << std::endl;
+	{const std::string s = "another string";
+	std::cout << s << std::endl; } }
+
+	std::string input;
+	std::cin >> input;
+	
+	return 0;
+}
+
+int four(int argc, _TCHAR* argv[])
+{
+	std::cout << "Excercise Four" << std::endl;
+
+	{ const std::string s = "a string";
+	std::cout << s << std::endl;
+	{ const std::string s = "another string";
+	std::cout << s << std::endl; } }
+
+	std::string input;
+	std::cin >> input;
+
 	return 0;
 }
 
@@ -46,9 +98,10 @@ int main(int argc, _TCHAR* argv[])
 	int result = 0;
 	result &= zero(argc, argv);
 	result &= one(argc, argv);
+	result &= two(argc, argv);
+	result &= three(argc, argv);
+	result &= four(argc, argv);
     result &= five(argc, argv);
-	result &= six(argc, argv);
-    std::string input;
-    std::cin >> input;
+	result &= six(argc, argv);    
 	return result;
 }
