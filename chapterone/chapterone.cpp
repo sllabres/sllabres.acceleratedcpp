@@ -2,6 +2,20 @@
 #include <iostream>
 #include <string>
 
+int zero(int argc, _TCHAR* argv[])
+{
+	const std::string hello = "Hello";
+	const std::string message = hello + ", Hello" + "!";
+	return 0;
+}
+
+int one(int argc, _TCHAR* argv[])
+{
+	const std::string exclam = "Hello";
+	const std::string message = exclam + "Hello" + ", world";
+	return 0;
+}
+
 int five(int argc, _TCHAR* argv[]) 
 {
     { std::string s = "a string";
@@ -28,8 +42,12 @@ int six(int argc, _TCHAR* argv[])
 
 
 int main(int argc, _TCHAR* argv[])
-{       
-    int result = five(argc, argv);
+{   
+	int result = 0;
+	result &= zero(argc, argv);
+	result &= one(argc, argv);
+    result &= five(argc, argv);
+	result &= six(argc, argv);
     std::string input;
     std::cin >> input;
 	return result;
