@@ -1,2 +1,0 @@
-sllabres.acceleratedcpp
-=======================

@@ -1,0 +1,1283 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              1530112D06E641DE8A1F53C2 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = A64826B13FF5454483997BAD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            F9241085F6DC4D91B576E200 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            AF1FADBBC46D44AAAE36D8A2 /* PBXTargetDependency */,
+                            0D2BCDE3BF094F8ABAFBB060 /* PBXTargetDependency */,
+                            69DF0BA469DF45E995DA6642 /* PBXTargetDependency */,
+                            18B3F221BFB54EAC8B5C0AE0 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              9985D08A6C2A439D8DC7B2A8 /* RUN_TESTS */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 77611C8FE95C43C5BD17BC96 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+                     buildPhases = (
+                            88E9B3ABD8D04D4EA0F042ED /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = RUN_TESTS;
+                     productName = RUN_TESTS;
+              };
+              FFBEA75A1C16436C80712EE3 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = FA574574E3714DAEBF285380 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            C27913C66ACD49CA9D38E38F /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+C49E74BC2A61471A811490C8 /* /Users/sllabres/Development/sllabres.acceleratedcpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 236A1C67147E48E6B5172FC5 /* /Users/sllabres/Development/sllabres.acceleratedcpp/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+DBA2863A3CE84FBB9255736B /* /Users/sllabres/Development/sllabres.acceleratedcpp/src/FirstTest.cpp */ = {isa = PBXBuildFile; fileRef = BCB3D881513F4324ABA4A9EA /* /Users/sllabres/Development/sllabres.acceleratedcpp/src/FirstTest.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B73412E80C27462792DFB4F3 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 48FF5E4149B945728B718909 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+FBCE1499EAF146C583D9170C /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 976D8D2B947C4F838524EE89 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest-all.cc */; settings = { COMPILER_FLAGS = ""; }; };
+8F3F8E0B89FE4752999A95B4 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8DC833F8793E494DA54B5F78 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+2ED28B75FCB54BDB80C0CE7C /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 5F4E92D1872A4143B17945B2 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest_main.cc */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              46BF9D9B5F0C4A578204B355 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              48736ECB84DE484D98FD68D1 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              CC800D51FCCF48539BE382B3 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              0BD9A84E369C4C81A666B5AB /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              2323DB00A1744D678A537618 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              B7238656C8FF4FD989922432 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 77D0C9CE59464CA08AF1F783 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FFBEA75A1C16436C80712EE3;
+                     remoteInfo = ZERO_CHECK;
+              };
+              980D731D2D844E72A2760797 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 77D0C9CE59464CA08AF1F783 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 4027742E4CBC4B9FBEEB7605;
+                     remoteInfo = gtest_main;
+              };
+              A1640A95C863483CB7D8C07E /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 77D0C9CE59464CA08AF1F783 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 7E3D895360BF4AE38D811E5B;
+                     remoteInfo = AcceleratedCPP;
+              };
+              33ABCCE0D3404769B624B756 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 77D0C9CE59464CA08AF1F783 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FFCA7257B50046439A602F8D;
+                     remoteInfo = gtest;
+              };
+              06F739F947D84560B8DBE7DA /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 77D0C9CE59464CA08AF1F783 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FFBEA75A1C16436C80712EE3;
+                     remoteInfo = ZERO_CHECK;
+              };
+              20BC012F241747B4964AC8E7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 77D0C9CE59464CA08AF1F783 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 4027742E4CBC4B9FBEEB7605;
+                     remoteInfo = gtest_main;
+              };
+              8A051EB4F5184B8EB964AA0B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 77D0C9CE59464CA08AF1F783 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FFCA7257B50046439A602F8D;
+                     remoteInfo = gtest;
+              };
+              8734A6BB2B0B4FB4B80D7C8E /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 77D0C9CE59464CA08AF1F783 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = FFCA7257B50046439A602F8D;
+                     remoteInfo = gtest;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+42BD99BF5D9A4CD092AAC351 /* /Users/sllabres/Development/sllabres.acceleratedcpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+236A1C67147E48E6B5172FC5 /* /Users/sllabres/Development/sllabres.acceleratedcpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+BCB3D881513F4324ABA4A9EA /* /Users/sllabres/Development/sllabres.acceleratedcpp/src/FirstTest.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "FirstTest.cpp"; path = "src/FirstTest.cpp"; sourceTree = SOURCE_ROOT; };
+7C2FAACFEA5B40EEA00BE105 /* AcceleratedCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = AcceleratedCPP; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+EED6946BF4C244DFB032F03A /* /Users/sllabres/Development/sllabres.acceleratedcpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+48FF5E4149B945728B718909 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "libs/gtest/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+976D8D2B947C4F838524EE89 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "gtest-all.cc"; path = "libs/gtest/src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+CB21D037FE16400D9039A1B2 /* gtest */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+8DC833F8793E494DA54B5F78 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "libs/gtest/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5F4E92D1872A4143B17945B2 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "gtest_main.cc"; path = "libs/gtest/src/gtest_main.cc"; sourceTree = SOURCE_ROOT; };
+C59C97736EA7451CAA2B72D1 /* gtest_main */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libgtest_main.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              80B25A221D624BDA8573C258  = {
+                     isa = PBXGroup;
+                     children = (
+                            DB85A69FBC364472BD70E38D /* Sources */,
+                            4E47F723757443D0AB38D882 /* Resources */,
+                            B7DC213542B04F25A8A92534 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              DB85A69FBC364472BD70E38D /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5E032FEB5EB44E088F8FA89B /* ALL_BUILD */,
+                            EDFE045F297241D29B303D64 /* AcceleratedCPP */,
+                            1E092A8015984C9992BBEBD6 /* ZERO_CHECK */,
+                            5A78277F6E964F63B11E6406 /* gtest */,
+                            DD2ABD2A82CC49BDBAE7E5AB /* gtest_main */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              4E47F723757443D0AB38D882 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              5E032FEB5EB44E088F8FA89B /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2820F6DDEE114DD39341F613 /* CMake Rules */,
+                            42BD99BF5D9A4CD092AAC351 /* /Users/sllabres/Development/sllabres.acceleratedcpp/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              2820F6DDEE114DD39341F613 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              EDFE045F297241D29B303D64 /* AcceleratedCPP */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3730C63F55524AA1AA57D128 /* Source Files */,
+                            236A1C67147E48E6B5172FC5 /* /Users/sllabres/Development/sllabres.acceleratedcpp/CMakeLists.txt */,
+                     );
+                     name = AcceleratedCPP;
+                     sourceTree = "<group>";
+              };
+              3730C63F55524AA1AA57D128 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BCB3D881513F4324ABA4A9EA /* /Users/sllabres/Development/sllabres.acceleratedcpp/src/FirstTest.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              1E092A8015984C9992BBEBD6 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            504F6860D678488981D70678 /* CMake Rules */,
+                            EED6946BF4C244DFB032F03A /* /Users/sllabres/Development/sllabres.acceleratedcpp/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              504F6860D678488981D70678 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              5A78277F6E964F63B11E6406 /* gtest */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9C1C01D15BA94941B0C0586A /* Source Files */,
+                            48FF5E4149B945728B718909 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/CMakeLists.txt */,
+                     );
+                     name = gtest;
+                     sourceTree = "<group>";
+              };
+              9C1C01D15BA94941B0C0586A /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            976D8D2B947C4F838524EE89 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest-all.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              DD2ABD2A82CC49BDBAE7E5AB /* gtest_main */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2248F72E1E1F4A4DA73C4579 /* Source Files */,
+                            8DC833F8793E494DA54B5F78 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/CMakeLists.txt */,
+                     );
+                     name = gtest_main;
+                     sourceTree = "<group>";
+              };
+              2248F72E1E1F4A4DA73C4579 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5F4E92D1872A4143B17945B2 /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest_main.cc */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              B7DC213542B04F25A8A92534 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7C2FAACFEA5B40EEA00BE105 /* AcceleratedCPP */,
+                            CB21D037FE16400D9039A1B2 /* gtest */,
+                            C59C97736EA7451CAA2B72D1 /* gtest_main */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              7E3D895360BF4AE38D811E5B /* AcceleratedCPP */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 14F717BA863940DD9D5E34FE /* Build configuration list for PBXNativeTarget "AcceleratedCPP" */;
+                     buildPhases = (
+                            24A889D50E954D5998ADAC3D /* Sources */,
+                            DE4D4E48C8994DB5B3F8B23B /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            B222EAB80634430A81A6ED32 /* PBXTargetDependency */,
+                            C78D3CDB751B4F22818CEC3B /* PBXTargetDependency */,
+                            BBCD9B493BFC4EDF94337A37 /* PBXTargetDependency */,
+                     );
+                     name = AcceleratedCPP;
+                     productName = AcceleratedCPP;
+                     productReference = 7C2FAACFEA5B40EEA00BE105 /* AcceleratedCPP */;
+                     productType = "com.apple.product-type.tool";
+              };
+              FFCA7257B50046439A602F8D /* gtest */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 0F4777BBE4EA47A485045BF3 /* Build configuration list for PBXNativeTarget "gtest" */;
+                     buildPhases = (
+                            329AD28D761E417AB6DAC95E /* Sources */,
+                            374845276D62481DB330D4B3 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                     );
+                     name = gtest;
+                     productName = gtest;
+                     productReference = CB21D037FE16400D9039A1B2 /* gtest */;
+                     productType = "com.apple.product-type.library.static";
+              };
+              4027742E4CBC4B9FBEEB7605 /* gtest_main */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = A8887D0CCA6D4E35A6B34BAF /* Build configuration list for PBXNativeTarget "gtest_main" */;
+                     buildPhases = (
+                            B4FC438956634150B6B0202E /* Sources */,
+                            C0F94B8DA39F42A1884ACBFD /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            7F8B4C5BB627437194E83E12 /* PBXTargetDependency */,
+                     );
+                     name = gtest_main;
+                     productName = gtest_main;
+                     productReference = C59C97736EA7451CAA2B72D1 /* gtest_main */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              77D0C9CE59464CA08AF1F783 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 614E4E1E596C4501ABE787DD /* Build configuration list for PBXProject  "AcceleratedCPP" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            48736ECB84DE484D98FD68D1 /* Debug */,
+                            CC800D51FCCF48539BE382B3 /* Release */,
+                            0BD9A84E369C4C81A666B5AB /* MinSizeRel */,
+                            2323DB00A1744D678A537618 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 80B25A221D624BDA8573C258;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            1530112D06E641DE8A1F53C2 /* ALL_BUILD */,
+                            7E3D895360BF4AE38D811E5B /* AcceleratedCPP */,
+                            9985D08A6C2A439D8DC7B2A8 /* RUN_TESTS */,
+                            FFBEA75A1C16436C80712EE3 /* ZERO_CHECK */,
+                            FFCA7257B50046439A602F8D /* gtest */,
+                            4027742E4CBC4B9FBEEB7605 /* gtest_main */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              16AD6C60B9F549DA859887FB /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              F9241085F6DC4D91B576E200 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sllabres/Development/sllabres.acceleratedcpp/xcode -f /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              DE4D4E48C8994DB5B3F8B23B /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sllabres/Development/sllabres.acceleratedcpp/xcode -f /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/CMakeScripts/AcceleratedCPP_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              9768132CFA1845DD92AB634E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              88E9B3ABD8D04D4EA0F042ED /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sllabres/Development/sllabres.acceleratedcpp/xcode -f /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              43E0F2DC60B841D2BBC280BB /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              C27913C66ACD49CA9D38E38F /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sllabres/Development/sllabres.acceleratedcpp/xcode -f /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              374845276D62481DB330D4B3 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest -f /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/CMakeScripts/gtest_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              C0F94B8DA39F42A1884ACBFD /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest -f /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/CMakeScripts/gtest_main_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              24A889D50E954D5998ADAC3D /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            DBA2863A3CE84FBB9255736B /* /Users/sllabres/Development/sllabres.acceleratedcpp/src/FirstTest.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              329AD28D761E417AB6DAC95E /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            FBCE1499EAF146C583D9170C /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest-all.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              B4FC438956634150B6B0202E /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            2ED28B75FCB54BDB80C0CE7C /* /Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/src/gtest_main.cc */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              AF1FADBBC46D44AAAE36D8A2 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FFBEA75A1C16436C80712EE3 /* ZERO_CHECK */;
+                     targetProxy = B7238656C8FF4FD989922432 /* PBXContainerItemProxy */;
+              };
+              0D2BCDE3BF094F8ABAFBB060 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 4027742E4CBC4B9FBEEB7605 /* gtest_main */;
+                     targetProxy = 980D731D2D844E72A2760797 /* PBXContainerItemProxy */;
+              };
+              69DF0BA469DF45E995DA6642 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 7E3D895360BF4AE38D811E5B /* AcceleratedCPP */;
+                     targetProxy = A1640A95C863483CB7D8C07E /* PBXContainerItemProxy */;
+              };
+              18B3F221BFB54EAC8B5C0AE0 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FFCA7257B50046439A602F8D /* gtest */;
+                     targetProxy = 33ABCCE0D3404769B624B756 /* PBXContainerItemProxy */;
+              };
+              B222EAB80634430A81A6ED32 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FFBEA75A1C16436C80712EE3 /* ZERO_CHECK */;
+                     targetProxy = 06F739F947D84560B8DBE7DA /* PBXContainerItemProxy */;
+              };
+              C78D3CDB751B4F22818CEC3B /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 4027742E4CBC4B9FBEEB7605 /* gtest_main */;
+                     targetProxy = 20BC012F241747B4964AC8E7 /* PBXContainerItemProxy */;
+              };
+              BBCD9B493BFC4EDF94337A37 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FFCA7257B50046439A602F8D /* gtest */;
+                     targetProxy = 8A051EB4F5184B8EB964AA0B /* PBXContainerItemProxy */;
+              };
+              7F8B4C5BB627437194E83E12 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = FFCA7257B50046439A602F8D /* gtest */;
+                     targetProxy = 8734A6BB2B0B4FB4B80D7C8E /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              5D81923D5B144EEC8B191C82 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/build";
+                     };
+                     name = Debug;
+              };
+              7A917781569B4DDF9E657A5F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/build";
+                     };
+                     name = Release;
+              };
+              2F324DBAFD3441D2BB6ED81B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/build";
+                     };
+                     name = MinSizeRel;
+              };
+              7D995E456C894BCC92E76252 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Developer/SDKs/MacOSX10.6.sdk";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              13430C254F4C4B72AB7C4040 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              3E1919A524F34E5CAF2E7FC8 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              7AF6AD71AA8A46489C7013C4 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              A0DC123CC6264110892DF6D0 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              860F955C4D01475F86517134 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/Debug/libgtest.a /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/Debug/libgtest_main.a /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/Debug/libgtest.a";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = AcceleratedCPP;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              85F67197EC71423BBF409CA0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/Release/libgtest.a /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/Release/libgtest_main.a /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/Release/libgtest.a";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = AcceleratedCPP;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A21E1E71E61B49738EF0CD7E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/MinSizeRel/libgtest.a /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/MinSizeRel/libgtest_main.a /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/MinSizeRel/libgtest.a";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = AcceleratedCPP;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              48CDAC05164243DE8AF9F6B9 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/RelWithDebInfo/libgtest.a /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/RelWithDebInfo/libgtest_main.a /Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/RelWithDebInfo/libgtest.a";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = AcceleratedCPP;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              8CB910FD9F9A47F28DBE9700 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0A28AF81D9C34B889B0B296F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              70218CCF63C941B8AC19D06B /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              08A7FE76C2B64ED3975BA6A1 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = RUN_TESTS;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              7544A26DC9C746F3BF1497CE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              EFB6C5DE36ED4D80A9216670 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              1B9F8464E13640D6883308AD /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              50AF39744F96487EA61F3798 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              9EF1AB33D381480085A13A51 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9BDE6D753E2749B78EB0B5A2 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A12058E7F18F42A18D42455D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              AA3CF500F97F4DE5BA8DC5AB /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = gtest;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              A0CD7AAF32BD49C0B2C91835 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              F644D33968F0404895134577 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              AD5652A722B0499C8BEEDBB7 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              BA398945831342C4AAA8E285 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest/include", "/Users/sllabres/Development/sllabres.acceleratedcpp/libs/gtest", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PREBINDING = NO;
+                            PRODUCT_NAME = gtest_main;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              614E4E1E596C4501ABE787DD /* Build configuration list for PBXProject  "AcceleratedCPP" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5D81923D5B144EEC8B191C82 /* Debug */,
+                            7A917781569B4DDF9E657A5F /* Release */,
+                            2F324DBAFD3441D2BB6ED81B /* MinSizeRel */,
+                            7D995E456C894BCC92E76252 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A64826B13FF5454483997BAD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            13430C254F4C4B72AB7C4040 /* Debug */,
+                            3E1919A524F34E5CAF2E7FC8 /* Release */,
+                            7AF6AD71AA8A46489C7013C4 /* MinSizeRel */,
+                            A0DC123CC6264110892DF6D0 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              14F717BA863940DD9D5E34FE /* Build configuration list for PBXNativeTarget "AcceleratedCPP" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            860F955C4D01475F86517134 /* Debug */,
+                            85F67197EC71423BBF409CA0 /* Release */,
+                            A21E1E71E61B49738EF0CD7E /* MinSizeRel */,
+                            48CDAC05164243DE8AF9F6B9 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              77611C8FE95C43C5BD17BC96 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8CB910FD9F9A47F28DBE9700 /* Debug */,
+                            0A28AF81D9C34B889B0B296F /* Release */,
+                            70218CCF63C941B8AC19D06B /* MinSizeRel */,
+                            08A7FE76C2B64ED3975BA6A1 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              FA574574E3714DAEBF285380 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            7544A26DC9C746F3BF1497CE /* Debug */,
+                            EFB6C5DE36ED4D80A9216670 /* Release */,
+                            1B9F8464E13640D6883308AD /* MinSizeRel */,
+                            50AF39744F96487EA61F3798 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              0F4777BBE4EA47A485045BF3 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            9EF1AB33D381480085A13A51 /* Debug */,
+                            9BDE6D753E2749B78EB0B5A2 /* Release */,
+                            A12058E7F18F42A18D42455D /* MinSizeRel */,
+                            AA3CF500F97F4DE5BA8DC5AB /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              A8887D0CCA6D4E35A6B34BAF /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A0CD7AAF32BD49C0B2C91835 /* Debug */,
+                            F644D33968F0404895134577 /* Release */,
+                            AD5652A722B0499C8BEEDBB7 /* MinSizeRel */,
+                            BA398945831342C4AAA8E285 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 77D0C9CE59464CA08AF1F783;
+}

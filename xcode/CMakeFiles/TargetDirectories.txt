@@ -1,0 +1,5 @@
+/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/CMakeFiles/gtest.dir
+/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/CMakeFiles/ALL_BUILD.dir
+/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/CMakeFiles/AcceleratedCPP.dir
+/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/CMakeFiles/gtest_main.dir
+/Users/sllabres/Development/sllabres.acceleratedcpp/xcode/libs/gtest/CMakeFiles/ZERO_CHECK.dir

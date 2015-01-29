@@ -1,0 +1,98 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FCE990C31A7AD879002F799A /* WidgetFrameworkTest */;
+		activeSDKPreference = macosx10.6;
+		activeTarget = 8D07F2BC0486CC7A007CD1D0 /* WidgetFramework */;
+		codeSenseManager = FCE990D81A7AD88B002F799A /* Code sense */;
+		executables = (
+			FCE990C31A7AD879002F799A /* WidgetFrameworkTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 444258425;
+			PBXWorkspaceStateSaveDate = 444258425;
+		};
+		sourceControlManager = FCE990D71A7AD88B002F799A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3B07BDE90E3F3F9E00647869 /* WidgetFrameworkTest */ = {
+		activeExec = 0;
+		executables = (
+			FCE990C31A7AD879002F799A /* WidgetFrameworkTest */,
+		);
+	};
+	4024D162113D7D2400C7059E /* Test */ = {
+		activeExec = 0;
+	};
+	4024D1E9113D83FF00C7059E /* TestAndBuild */ = {
+		activeExec = 0;
+	};
+	8D07F2BC0486CC7A007CD1D0 /* WidgetFramework */ = {
+		activeExec = 0;
+	};
+	FCE990C31A7AD879002F799A /* WidgetFrameworkTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WidgetFrameworkTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FCE990D71A7AD88B002F799A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FCE990D81A7AD88B002F799A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

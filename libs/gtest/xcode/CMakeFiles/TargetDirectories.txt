@@ -1,0 +1,4 @@
+/Users/sllabres/Development/googletest/xcode/CMakeFiles/gtest.dir
+/Users/sllabres/Development/googletest/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/sllabres/Development/googletest/xcode/CMakeFiles/gtest_main.dir
+/Users/sllabres/Development/googletest/xcode/CMakeFiles/ZERO_CHECK.dir
