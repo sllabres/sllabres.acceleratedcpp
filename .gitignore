@@ -55,3 +55,4 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+xcode/Testing
